@@ -1,18 +1,25 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GridsterModule } from 'angular-gridster2';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { LineChartComponent } from './line-chart/line-chart.component';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent,
+    LineChartComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    GridsterModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [LineChartComponent, BarChartComponent]
 })
 export class AppModule { }
