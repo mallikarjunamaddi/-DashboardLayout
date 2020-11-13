@@ -1,27 +1,16 @@
 # DashboardLayoutDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+This project is a POC on demonstrating dynamic layouts. Dynamic layouts allows us to arrange the items in the dashboard. It provides options such as change position, resize, add item, delete item and many other interesting features.
 
-## Development server
+## Steps to start the application
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Run `npm install` to install all dependent packages.
+- Run `ng serve` to start the server.
+- Navigate to `http://localhost:4200/`. 
 
-## Code scaffolding
+## Thanks and Acknowledgements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- [Angular Docs](https://angular.io/docs)
+- Dynamic Layout package [angular-gridster2](https://www.npmjs.com/package/angular-gridster2)
+- API Reference on [Angular Gridster 2](https://tiberiuzuld.github.io/angular-gridster2/)
+- An [article](https://medium.com/javascript-in-plain-english/drag-and-drop-dashboard-builder-with-angular-and-gridster-a07592e54ce2) on gridster2 usage.
